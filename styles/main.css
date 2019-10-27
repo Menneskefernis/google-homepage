@@ -89,6 +89,8 @@ main button {
     background-color: rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.6);
     border-radius: 4px;
+    outline: none;
+    cursor: pointer;
 }
 
 main p {
@@ -98,4 +100,36 @@ main p {
 main p a {
     text-decoration: none;
     color: rgb(183, 23, 234);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 13px;
+    border-top: 1px rgba(0, 0, 0, 0.1) solid;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.privacy {
+    float: right;
+}
+
+.info {
+    float: left;
 }
