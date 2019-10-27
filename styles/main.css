@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 nav {
@@ -24,7 +25,7 @@ nav li {
     display: inline;
     font-size: 13px;
     margin: 8px;
-    color: rgba(0, 0, 0, 0.55);
+    
     
 }
 
@@ -42,4 +43,59 @@ nav li button {
     font-weight: bold;
     font-size: 13px;
     border-radius: 1px;
+}
+
+main {
+    position: relative;
+    clear: right;
+    text-align: center;
+    width: 100%;
+    top: 170px;
+}
+
+main .searchbar {
+    width: 50%;
+    margin-top: 70px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 20px;
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    border-radius: 25px;
+    height: 40px;
+}
+
+main .searchbar img {
+    height: 16px;
+}
+
+main .searchbar input {
+    height: 75%;
+    width: 75%;
+    border: none;
+}
+
+main svg {
+    width: 24px;
+}
+
+main button {
+    margin: 40px 5px;
+    display: inline-block;
+    border: none;
+    padding: 13px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+}
+
+main p {
+    font-size: 13px;
+}
+
+main p a {
+    text-decoration: none;
+    color: rgb(183, 23, 234);
 }
