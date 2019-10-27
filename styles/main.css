@@ -1,3 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    color:red;
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    text-decoration: none;
+    display: inline;
+    font-size: 13px;
+    margin: 8px;
+    color: rgba(0, 0, 0, 0.55);
+    
+}
+
+nav li img {
+    width: 16px;
+    height: 16px;
+    opacity: 0.55;
+}
+
+nav li button {
+    background-color: #4285f4;
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 1px;
 }
